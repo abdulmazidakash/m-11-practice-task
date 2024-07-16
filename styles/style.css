@@ -2,4 +2,84 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    background: rgb(255, 255, 255);
+    
+}
+
+.header{
+    max-width: 1440px;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* shared color styles here */
+.primary-color{
+    color: rgb(58, 58, 58);
+}
+
+/* nav bar section styles starts here  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(170, 170, 170); */
+    width: 90%;
+    margin: 2rem auto;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav li{
+    margin-right: 28px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* banner section styles starts here  */
+.banner{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 130px;
+
+    
+}
+.banner-image{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-text-content{
+   margin-top: 50px;
+}
+.banner-title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-primary{
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border: none;
 }
