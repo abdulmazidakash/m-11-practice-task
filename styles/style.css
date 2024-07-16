@@ -53,6 +53,7 @@ nav h3{
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 130px;
+    margin-bottom: 10rem;
 
     
 }
@@ -82,4 +83,19 @@ nav h3{
     font-weight: 700;
     color: rgb(255, 255, 255);
     border: none;
+}
+
+
+/* sponsors companies styles starts here  */
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 90%;
+    height: 110px;
+    margin: 0 auto;
+    /* border: 2px solid; */
+    align-items: center;
+}
+hr{
+    width: 90%;
 }
