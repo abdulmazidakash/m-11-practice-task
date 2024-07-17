@@ -17,10 +17,17 @@
     .popular-container{
         grid-template-columns: 1fr;
         gap: 30px;
+        align-items: center;
     }
     .popular-collection-section{
         width: 90%;
         margin: 0 auto;
         align-items: center;
+    }
+    .featured-product{
+        flex-direction: column;
+    }
+    .featured-text-content{
+        width: 400px;
     }
 }

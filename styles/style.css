@@ -151,3 +151,37 @@ hr{
 
 
 }
+
+/* featured section styles starts here  */
+.featured-product-section{
+    /* display: flex; */
+    margin-top: 80px;
+}
+.featured-product{
+    display: flex;
+    gap: 50px;
+}
+.featured-text-content{
+    width: 610px;
+    margin: 0 auto;
+}
+.featured-title{
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn-primary-2{
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    /* border-radius: 41px; */
+    background: rgb(224, 44, 109);
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.featured-image img{
+    width: 100%;
+}
