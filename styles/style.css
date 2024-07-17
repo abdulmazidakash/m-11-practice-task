@@ -185,3 +185,32 @@ hr{
 .featured-image img{
     width: 100%;
 }
+
+
+/* footer section styles starts here */
+
+.footer-section{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+
+
+}
+footer{
+    background: #0A0826;
+}
+.social{
+   justify-content: space-between;
+   width: 200px;
+   display: flex;
+   align-items: center;
+   margin: 2rem auto;
+}
+.social i{
+  height: 44px; 
+  font-size: 24px;
+}
