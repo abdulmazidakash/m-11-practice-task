@@ -6,6 +6,11 @@ body{
     
 }
 
+
+/* shared styles starts here  */
+.text-center{
+    text-align: center;
+}
 .header{
     max-width: 1440px;
 
@@ -87,15 +92,58 @@ nav h3{
 
 
 /* sponsors companies styles starts here  */
+.sponsor-container{
+    margin-bottom: 80px;
+}
 .sponsor-companies{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     width: 90%;
     height: 110px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* border: 2px solid; */
     align-items: center;
+    margin-left: 100px;
 }
 hr{
     width: 90%;
+    
+}
+
+/* popular container styles starts here  */
+.popular-collection-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.popular-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+.popular-content{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 329px;
+    height: 500px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.popular-content img{
+    width: 100%;
+
+}
+.section-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+#see{
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    color: rgba(224, 44, 109, 0.87);
+
+
 }
