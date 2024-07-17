@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+    nav, ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+
+  
+    }
+    .sponsor-companies{
+        grid-template-columns: 4fr 3fr;
+        gap: 30px;
+        height: 280px;
+        margin-left: 60px;
+    }
+    .popular-container{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .popular-collection-section{
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+    }
+}

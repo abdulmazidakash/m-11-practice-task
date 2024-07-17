@@ -55,8 +55,8 @@ nav h3{
 
 /* banner section styles starts here  */
 .banner{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
+    /* grid-template-columns: 3fr 1fr; */
     gap: 130px;
     margin-bottom: 10rem;
 
@@ -66,6 +66,10 @@ nav h3{
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: center;
+
+}
+.banner-image img{
+    width: 100%;
 }
 .banner-text-content{
    margin-top: 50px;
